@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    char word1[40], word2[40], word3[40], word4[40];
+    printf("Enter text:");
+    scanf("%s%s",word1, word2);
+    scanf("%s",word3);
+    scanf("%s",word4);
+    printf("n");
+    printf("word1=%snword2=%sn",word1,word2);
+    printf("word3=%snword4=%sn",word3,word4);
+}
